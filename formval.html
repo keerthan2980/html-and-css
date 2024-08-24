@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+<body>
+    <div>
+        <h2>Form Validations</h2>
+        <form onsubmit=" return valid()">
+            Username: <input type="text" placeholder="Username" id="1"><br><br>
+            <p id="kk"></p>
+            Email: <input type="email" placeholder="Enter the email" id="2"><br><br>
+            Number: <input type="number" placeholder="Enter the number" id="3"><br><br>
+            Password: <input type="password" placeholder="Enter the password" id="4"><br><br>
+            Confirm Password: <input type="password" placeholder="Confirm password" id="5"><br><br>
+            <input type="submit" value="Submit"/>
+        </form>
+        <p id="hh">   </p>
+    </div>
+    <p></p>
+    <script>
+      function valid(){
+       var a=document.getElementById("1").value;
+       var b=document.getElementById("2").value;
+       var c=document.getElementById("3").value;
+       var d=document.getElementById("4").value;
+       var e=document.getElementById("5").value;
+       var text;
+
+         if(a==""){
+            text="enter the username";
+         }
+         else{
+            text="input ok";
+         }
+         document.getElementById("kk").innerHTML=text;
+        }
+    </script>
+</body>
+</html>
