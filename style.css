@@ -1,0 +1,13 @@
+h1{
+    color:red
+}
+p{
+    text-align:center;
+    color:#544b57 !important;
+}
+button{
+    color:yellow
+}
+*{
+    box-sizing: border-box;
+      }

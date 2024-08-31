@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{
+        box-sizing:border-box;
+        margin:10px;
+        padding:10px;
+        border:10px solid green;
+      }
+      .k{
+        float:left;
+        width:50px;;
+      }
+      .a{
+        height:100px;
+        width:100px;
+        background-color:black;
+      }
+      .b{
+        height:100px;
+        width:100px;
+        background-color:yellow;
+      }
+      .clearfix::after {
+         content: "";
+         clear: both;
+         display: table;
+}
+
+    </style>
+</head>
+<body>
+    <div class="k  a">hello</div>
+    <div class="k b">where are you </div>
+</body>
+</html>

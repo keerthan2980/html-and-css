@@ -1,0 +1,9 @@
+.hstyle{
+    font-family: "Times New Roman", Times, serif;
+    text-decoration:overline;
+} 
+.pstyle{
+    font-family: 'Brush Script MT', cursive;
+    text-decoration:underline;
+    color:red
+}
